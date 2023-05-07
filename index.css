@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: system-ui;
+  background-image: url("background.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000;
+  background-color: #ffffff99;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.rangeSliders {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.units {
+    margin-right: -14px;
+}
+
+.height, .inches{
+        margin-right: -2px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #222;
+}
+.units {
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #222;
+}
+.inches {
+    margin-right: -55px;
+    display: none; 
+}
+
+span.result {
+  display: block;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-shadow: 0 0 2px #000;
+}
+
+h2 {
+  text-align: center;
+  color: #ccc;
+  text-shadow: 0 0 2px #000;
+}
